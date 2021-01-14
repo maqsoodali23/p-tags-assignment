@@ -1,0 +1,34 @@
+{
+  "name": "p-tags-assignment",
+  "version": "1.0.0",
+  "description": "his repository contains the code express js project for manipulating html file.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier-format": "prettier --config .prettierrc 'src/**/*.js' --write",
+    "lint": "eslint . --ext .js"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": ""
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maqsoodali23/p-tags-assignment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maqsoodali23/p-tags-assignment/issues"
+  },
+  "homepage": "https://github.com/maqsoodali23/p-tags-assignment#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "eslint": "^7.17.0",
+    "express": "^4.17.1",
+    "husky": "^4.3.7",
+    "prettier": "^2.2.1"
+  }
+}
