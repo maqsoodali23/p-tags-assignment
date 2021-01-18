@@ -17,11 +17,15 @@
   <body>
     <div class="container">
       <div class="jumbotron">
+        <h2>Choose a file to upload!</h2>
         <h2></h2>
         <form action="/uploadfile" enctype="multipart/form-data" method="post">
             <div class="form-group">
-              <h2>Welcome to your HTML file</h2>
-              <h2></h2>           
+              <input type="file" class="form-control-file" name="uploaded_file">
+              <h2></h2>
+              <input type="text" class="form-control" placeholder="Enter something" name="texinput">
+              <h2></h2>
+              <input type="submit" value="Upload!" class="btn btn-default">            
             </div>
           </form>
       </div>

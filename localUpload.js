@@ -20,7 +20,7 @@ app.post(
   },
 );
 app.get('/', (req, res) => {
-  res.sendFile(`${__dirname}/file.html`);
+  res.sendFile(`${__dirname}/uploadFile.html`);
 });
 
 app.listen(port, () => {
